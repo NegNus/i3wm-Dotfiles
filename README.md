@@ -3,8 +3,9 @@
 ---
 
 # I have no idea if it will work on your PC/Laptop (because of dependencies🥀)
+I did this primarily for myself.
 
-I used [GNU Stow](https://github.com/aspiers/stow) to manage all my dotfiles
+[GNU Stow](https://github.com/aspiers/stow) is used to manage all my dotfiles
 
 ---
 
