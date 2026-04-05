@@ -1,5 +1,7 @@
 # My i3wm dotfiles
 
+<img width="1919" height="1079" alt="dskp" src="https://github.com/user-attachments/assets/d234fa60-3a41-43ac-924a-71ff5b57a4b7" />
+
 ## Dependencies (arch btw)
 
 `sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance`
