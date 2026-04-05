@@ -1,5 +1,7 @@
 # My i3wm dotfiles
 
+
+
 <img width="1919" height="1079" alt="dskp" src="https://github.com/user-attachments/assets/d234fa60-3a41-43ac-924a-71ff5b57a4b7" />
 
 ## Dependencies (arch btw)
@@ -21,9 +23,10 @@
 `git clone https://github.com/NegNus/i3wm-Dotfiles.git`
 
 2) nagivate to the directory:
+3) 
 `cd i3wm-Dotfiles/stew/`
 
-3) Apply configs:
+4) Apply configs:
 
 `stow -t ~ *`
 
@@ -32,6 +35,8 @@
 `mod + shift + e` to restart everything
 
 ## Some avaible configurations:
+### Bar config: 
+
 [Quickshell Config](quickshell/.config/quickshell/Config) - config file for the top bar (It kinda chopped)
 
 You can also exec commands on these 2 buttons <img width="53" height="35" alt="image" src="https://github.com/user-attachments/assets/76761b8b-3127-4e5c-a032-f4647025e8f5" /> , <img width="52" height="35" alt="image" src="https://github.com/user-attachments/assets/ee477677-5e59-47f6-9915-ff8a8c71a635" />
@@ -39,6 +44,7 @@ You can also exec commands on these 2 buttons <img width="53" height="35" alt="i
 [arch logo button](quickshell/.config/quickshell/bar/Moduless/Workspaces) -  43th line
 
 [fire button](quickshell/.config/quickshell/bar/Moduless/Tray) - 38th line
+
 ## Shortcuts
 `mod + q` kill window
 
