@@ -37,7 +37,7 @@ I did this primarily for myself.
 
 `stow -t ~ *`
 
-4 )After installation: 
+4) After installation: 
 
 `mod + shift + e` to restart everything
 
