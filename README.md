@@ -4,6 +4,8 @@
 
 # I have no idea if it will work on your PC/Laptop (because of dependencies🥀)
 
+I used [GNU Stow](https://github.com/aspiers/stow) to manage all my dotfiles
+
 ---
 
 <img width="1919" height="1079" alt="dskp" src="https://github.com/user-attachments/assets/d234fa60-3a41-43ac-924a-71ff5b57a4b7" />
@@ -37,6 +39,10 @@
 5 )After installation: 
 
 `mod + shift + e` to restart everything
+
+If you want to delete symlinks(roll back 4th step) :
+
+run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
 ## Some avaible configurations:
 
