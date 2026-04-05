@@ -19,14 +19,17 @@ Clone repo
 
 `git clone https://github.com/NegNus/i3wm-Dotfiles.git`
 
-
 `cd i3wm-Dotfiles/stew/`
 
-Apply 
+Apply configs
 `stow -t ~ *`
 
 ## shortcuts
 `mod + q` kill window
+
+`mod + 1-9` go to workspace 1-9
+
+`mod + shift + 1-9` go to workspace 1-9 with focused window
 
 `mod + x` - terminal(kitty)
 
