@@ -50,7 +50,9 @@ run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
 ### Bar config: 
 
-[Quickshell Config](stew/quickshell/.config/quickshell/Config.qml) - file for the top bar (It kinda chopped)
+I did bar by myself, so config file can be kinda chopped
+
+[Quickshell Config](stew/quickshell/.config/quickshell/Config.qml) - file for the top bar 
 
 [Theme Config](stew/quickshell/.config/quickshell/bar/Theme.qml) - Colors for the top bar
 
