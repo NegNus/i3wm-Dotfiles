@@ -29,18 +29,18 @@ I used [GNU Stow](https://github.com/aspiers/stow) to manage all my dotfiles
 `git clone https://github.com/NegNus/i3wm-Dotfiles.git`
 
 2) nagivate to the directory:
-3) 
+
 `cd i3wm-Dotfiles/stew/`
 
-4) Apply configs:
+3) Apply configs:
 
 `stow -t ~ *`
 
-5 )After installation: 
+4 )After installation: 
 
 `mod + shift + e` to restart everything
 
-If you want to delete symlinks(roll back 4th step) :
+If you want to delete symlinks(roll back 3th step) :
 
 run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
