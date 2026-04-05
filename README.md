@@ -6,7 +6,7 @@
 
 `yay -S rofi-greenclip`
 
-## optional
+## For me
 
 `sudo pacman -S telegram-desktop steam`
 
