@@ -16,7 +16,7 @@ I used [GNU Stow](https://github.com/aspiers/stow) to manage all my dotfiles
 
 `yay -S rofi-greenclip`
 
-## For me
+### For me
 
 `sudo pacman -S telegram-desktop steam prismlauncher zerotier-one gimp libvlc libreoffice-still` 
 
