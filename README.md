@@ -16,16 +16,20 @@
 
 ## Installation 
 
-Clone repo
+1) Clone the repo:
 
 `git clone https://github.com/NegNus/i3wm-Dotfiles.git`
 
+2) nagivate to the directory:
 `cd i3wm-Dotfiles/stew/`
 
-Apply configs
+3) Apply configs:
+
 `stow -t ~ *`
 
-After installation: `mod + shift + e` to restart everything
+4 )After installation: 
+
+`mod + shift + e` to restart everything
 
 ## shortcuts
 `mod + q` kill window
