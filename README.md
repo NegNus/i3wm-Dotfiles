@@ -1,9 +1,45 @@
-My i3wm dotfiles
+# My i3wm dotfiles
 
-installation 
+## Dependencies
 
-git clone https://github.com/NegNus/i3wm-Dotfiles.git
+`sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance`
 
-cd i3wm-Dotfiles/stew/
+`yay -S rofi-greenclip`
 
-stow -t ~ *
+## optional
+
+`sudo pacman -S telegram-desktop steam`
+
+`yay -S logseq-desktop-bin equibop-bin`
+## Installation 
+
+Clone repo
+
+`git clone https://github.com/NegNus/i3wm-Dotfiles.git`
+
+
+`cd i3wm-Dotfiles/stew/`
+
+Apply 
+`stow -t ~ *`
+
+## shortcuts
+`mod + q` kill window
+
+`mod + x` - terminal(kitty)
+
+`mod + d` - rofi
+
+`mod + p` - on/off picom(compositor/vsync)
+
+`mod + shift + o` - on/off top bar
+
+`mod + shift + s` - screenshot
+
+`mod + shift + v` - make window floating
+
+`mod + v` - greenclip
+
+`mod + m` - logseq
+
+`mod + f` - firefox
