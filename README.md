@@ -40,7 +40,7 @@ I used [GNU Stow](https://github.com/aspiers/stow) to manage all my dotfiles
 
 `mod + shift + e` to restart everything
 
-If you want to delete symlinks(roll back 3th step) :
+If you want to delete symlinks(roll back 3rd step) :
 
 run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
