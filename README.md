@@ -1,6 +1,6 @@
 # My i3wm dotfiles
 
-## Dependencies
+## Dependencies (arch btw)
 
 `sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance`
 
