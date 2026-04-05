@@ -48,15 +48,15 @@ run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
 ### Bar config: 
 
-[Quickshell Config](quickshell/.config/quickshell/Config.qml) - file for the top bar (It kinda chopped)
+[Quickshell Config](stew/quickshell/.config/quickshell/Config.qml) - file for the top bar (It kinda chopped)
 
-[Theme Config](quickshell/.config/quickshell/Theme.qml) - Colors for the top bar
+[Theme Config](stew/quickshell/.config/quickshell/Theme.qml) - Colors for the top bar
 
 You can also execute commands by clicking these buttons <img width="53" height="35" alt="image" src="https://github.com/user-attachments/assets/76761b8b-3127-4e5c-a032-f4647025e8f5" /> , <img width="52" height="35" alt="image" src="https://github.com/user-attachments/assets/ee477677-5e59-47f6-9915-ff8a8c71a635" />
 
-[arch logo button](quickshell/.config/quickshell/bar/Moduless/Workspaces) -  43th line
+[arch logo button](stew/quickshell/.config/quickshell/bar/Moduless/Workspaces) -  43th line
 
-[fire button](quickshell/.config/quickshell/bar/Moduless/Tray) - 38th line
+[fire button](stew/quickshell/.config/quickshell/bar/Moduless/Tray) - 38th line
 
 ## Shortcuts
 `mod + q` kill window
