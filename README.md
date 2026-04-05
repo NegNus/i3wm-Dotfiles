@@ -1,6 +1,10 @@
 # My i3wm dotfiles
 
+---
 
+# I have no idea if it will work on your PC/Laptop (because of dependencies🥀)
+
+---
 
 <img width="1919" height="1079" alt="dskp" src="https://github.com/user-attachments/assets/d234fa60-3a41-43ac-924a-71ff5b57a4b7" />
 
@@ -30,11 +34,12 @@
 
 `stow -t ~ *`
 
-4 )After installation: 
+5 )After installation: 
 
 `mod + shift + e` to restart everything
 
 ## Some avaible configurations:
+
 ### Bar config: 
 
 [Quickshell Config](quickshell/.config/quickshell/Config) - config file for the top bar (It kinda chopped)
