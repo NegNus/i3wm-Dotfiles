@@ -61,7 +61,7 @@ You can also execute commands by clicking these buttons <img width="53" height="
 
 ### Misc
 
-`rofi, zsh, picom, i3, fastfetch, kitty, etc` you can find [here](stew)
+configs for `rofi, zsh, picom, i3, fastfetch, kitty, etc` you can find [here](stew)
 
 To change wallpapers put it in [i3wm-Dotfiles/stew/misc/MySetup](stew/misc/MySetup) and change name to `Walp.png`
 
