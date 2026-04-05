@@ -13,6 +13,7 @@
 `sudo pacman -S telegram-desktop steam prismlauncher zerotier-one gimp libvlc libreoffice-still` 
 
 `yay -S logseq-desktop-bin equibop-bin`
+
 ## Installation 
 
 Clone repo
@@ -23,6 +24,8 @@ Clone repo
 
 Apply configs
 `stow -t ~ *`
+
+After installation: `mod + shift + e` to restart everything
 
 ## shortcuts
 `mod + q` kill window
