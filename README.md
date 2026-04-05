@@ -8,7 +8,7 @@
 
 ## For me
 
-`sudo pacman -S telegram-desktop steam`
+`sudo pacman -S telegram-desktop steam prismlauncher zerotier-one gimp libvlc libreoffice-still` 
 
 `yay -S logseq-desktop-bin equibop-bin`
 ## Installation 
