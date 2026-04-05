@@ -31,7 +31,15 @@
 
 `mod + shift + e` to restart everything
 
-## shortcuts
+## Some avaible configurations:
+[Quickshell Config](quickshell/.config/quickshell/Config) - config file for the top bar (It kinda chopped)
+
+You can also exec commands on these 2 buttons <img width="53" height="35" alt="image" src="https://github.com/user-attachments/assets/76761b8b-3127-4e5c-a032-f4647025e8f5" /> , <img width="52" height="35" alt="image" src="https://github.com/user-attachments/assets/ee477677-5e59-47f6-9915-ff8a8c71a635" />
+
+[arch logo button](quickshell/.config/quickshell/bar/Moduless/Workspaces) -  43th line
+
+[fire button](quickshell/.config/quickshell/bar/Moduless/Tray) - 38th line
+## Shortcuts
 `mod + q` kill window
 
 `mod + 1-9` go to workspace 1-9
