@@ -44,6 +44,7 @@ If you want to delete symlinks(roll back 4th step) :
 
 run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
+
 ## Some avaible configurations:
 
 ### Bar config: 
@@ -58,7 +59,14 @@ You can also execute commands by clicking these buttons <img width="53" height="
 
 [fire button](stew/quickshell/.config/quickshell/bar/Moduless/Tray.qml) - 38th line
 
+### Misc
+
+`rofi, zsh, picom, i3, fastfetch, kitty, etc` you can find [here](stew)
+
+To change wallpapers put it in [i3wm-Dotfiles/stew/misc/MySetup](stew/misc/MySetup) and change name to `Walp.png`
+
 ## Shortcuts
+
 `mod + q` kill window
 
 `mod + 1-9` go to workspace 1-9
