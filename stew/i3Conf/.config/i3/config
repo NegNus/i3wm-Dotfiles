@@ -4,6 +4,7 @@
 mouse_warping none
 workspace_auto_back_and_forth yes
 for_window [class = "steam"] floating enable
+for_window [class="CKAN"] floating enable
 for_window [title = "Steam"] floating disable
 for_window [title = "Войти в Steam"] floating enable
 for_window [class = "crow"] floating enable
@@ -16,14 +17,17 @@ for_window [title="Windowed Projector \(Scene\) - Wall"] floating enable, resize
 focus_on_window_activation focus
 
 for_window [class="^.*"] border pixel 0
-assign [class="logseq"] 5
+assign [class="^logseq.*"] 5
+assign [class="Logseq"] 5
 assign [class="equibop"] 3
+assign [class="Gimp"] 4
 assign [class="steam"] 3
-#assign [class="firefox"] 1
+assign [class="firefox"] 1
 assign [class="Telegram"] 4
 #assign [class="kitty"] 4
 assign [class="AmneziaVPN"] 4
 for_window [class="thunar"] opacity 0.5
+for_window [class="MyPractice"] floating enable
 for_window [class="vlc"] floating enable, move position center
 for_window [title="Windowed Projector \(Scene\) - Mag"] floating enable, resize set width 1, resize set height 1, move position 0 0
 for_window [title="Windowed Projector \(Scene\) - Wall"] floating enable, resize set width 1920, resize set height 1080, move position 0 0 
@@ -32,8 +36,8 @@ focus_on_window_activation focus
 focus_follows_mouse yes
 assign [class="tf_linux64"] 2
 assign [class="^Minecraft.*"] 2
-assign [class="tf_linux64"] 2
-assign [class="tf_linux64"] 2
+assign [class="^steam_app.*"] 2
+assign [class="factorio"] 2
 assign [class="tf_linux64"] 2
 assign [class="tf_linux64"] 2
 assign [class="tf_linux64"] 2
@@ -45,11 +49,11 @@ assign [class="tf_linux64"] 2
 #############
 
 # class                 border  backgr. text    indicator child_border
-#client.focused          #2c374f #285577 #ffffff #2e9ef4   #285577
+client.focused          #2c374f #285577 #ffffff #2e9ef4   #285577
 #client.unfocused        #333333 #222222 #888888 #292d2e   #222222
 #client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 font pango:JetBrainsMono Nerd Font 8
-default_border pixel 0 
+default_border pixel 1 
 default_floating_border pixel 2
 gaps inner 7 
 gaps outer -7 
@@ -68,15 +72,15 @@ exec --no-startup-id picom
 exec_always autotiling
 set $mod Mod4
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec_always --no-startup-id feh --bg-scale ~/MySetup/Walp.png S
 exec export XKB_DEFAULT_LAYOUT=ru
 exec --no-startup-id nm-applet
 exec --no-startup-id equibop
-exec --no-startup-id kitty
 exec --no-startup-id firefox
 exec --no-startup-id steam
-exec --no-startup-id Telegram
+exec --no-startup-id gimp
+# exec --no-startup-id Telegram
 exec --no-startup-id greenclip daemon
 ##########
 #BINDINGS#hi
