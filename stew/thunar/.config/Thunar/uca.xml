@@ -5,7 +5,7 @@
 	<name>Open Terminal Here</name>
 	<submenu></submenu>
 	<unique-id>1766678944504678-1</unique-id>
-	<command>exo-open --working-directory %f --launch kitty</command>
+	<command>kitty --directory %f</command>
 	<description>Example for a custom action</description>
 	<range></range>
 	<patterns>*</patterns>
