@@ -3,6 +3,7 @@
 export QT_QPA_PLATFORMTHEME=gtk3
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+alias applyTheme='/home/$USER/.config/colorschemes/ApplyTheme.sh'
 alias sudo='sudo '
 alias f='fastfetch'
 alias c='clear'

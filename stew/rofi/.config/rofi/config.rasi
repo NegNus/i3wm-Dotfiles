@@ -10,7 +10,7 @@ configuration {
     display-window: "Windows:";
 }
 
-@theme "nord"
+@theme "theme"
 
 * {
     font: "JetBrainsMono Nerd Font";
