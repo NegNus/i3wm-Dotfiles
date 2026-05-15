@@ -15,7 +15,7 @@ I did this primarily for myself.
 
 `sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance`
 
-`yay -S rofi-greenclip`
+`yay -S rofi-greenclip gruvbox-dark-gtk gruvbox-dark-icons-gtk papirus-folders-nordic`
 
 ### For me
 
