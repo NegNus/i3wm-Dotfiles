@@ -2,7 +2,7 @@
 
 ---
 
-# I have no idea if it will work on your PC/Laptop (because of dependencies🥀)
+# It will not work on your machine.
 I did this primarily for myself.
 
 [GNU Stow](https://github.com/aspiers/stow) is used to manage all my dotfiles
@@ -50,8 +50,6 @@ run this --> `stow -Dt ~ *` command in `i3wm-Dotfiles/stew` directory
 
 ### Bar config: 
 
-I did bar by myself, so config file can be kinda chopped
-
 [Quickshell Config](stew/quickshell/.config/quickshell/Config.qml) - file for the top bar 
 
 [Theme Config](stew/quickshell/.config/quickshell/bar/Theme.qml) - Colors for the top bar
@@ -66,7 +64,7 @@ You can also execute commands by clicking these buttons <img width="53" height="
 
 configs for `rofi, zsh, picom, i3, fastfetch, kitty, etc` you can find [here](stew)
 
-To change wallpapers put it in [i3wm-Dotfiles/stew/misc/MySetup](stew/misc/MySetup) and change name to `Walp.png`
+[Theme Changer](stew/colorschemes/.config/colorschemes/ApplyTheme.sh) - scrit to change theme (gruvbox and nord)
 
 ## Shortcuts
 
