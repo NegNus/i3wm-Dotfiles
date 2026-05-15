@@ -15,6 +15,7 @@ kitty="kitty/theme.conf"
 dunst="dunst/dunstrc.d/theme.conf"
 quickshell="quickshell/bar/Theme.qml"
 rofi="rofi/theme.rasi"
+nvim="nvim/lua/custom/plugins/theme.lua"
 echo $themeDir
 
 echo
@@ -57,3 +58,13 @@ else
 fi
 
 echo
+#	nvim
+if cp "$themeDir/$nvim" "$cfgDir/$nvim"; then
+	echo "nvim SUCCESS"
+else
+	echo "nvim FAILED!!!! "
+fi
+
+
+./$1/misc.sh
+feh --bg-scale ~/MySetup/Walp.png

@@ -37,6 +37,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/show-highlight" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-descending" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-name" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/6615f8b5eac7cc07b03c63d9cdf8a270" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-all-files" "<Primary>a")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/execute" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/properties" "<Alt>Return")

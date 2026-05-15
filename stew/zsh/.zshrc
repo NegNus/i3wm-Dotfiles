@@ -130,3 +130,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 alias zapret-utils='$HOME/zapret-configs/utils-zapret.sh'
 alias zapret-utils='$HOME/zapret-configs/utils-zapret.sh'
+
+# Created by `pipx` on 2026-05-15 04:59:44
+export PATH="$PATH:/home/poor/.local/bin"
