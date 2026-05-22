@@ -1,0 +1,24 @@
+* {
+  // Gruvbox dark backgrounds
+  bg0     : #282828;   // main background (dark0)
+  bg1     : #3c3836;   // panel / frame (dark1)
+  bg2     : #504945;   // subtle inset (dark2)
+  bg3     : #665c54;   // hover / selected (dark3)
+
+  // Gruvbox foregrounds (bright variant text)
+  fg0     : #EBDBB2;   // primary text (fg bright)
+  fg1     : #A89984;   // weaker / meta text
+  fg2     : #7C6F64;   // muted text (dark4)
+
+  // Base accent colors
+  red     : #FB4934;   // bright red (errors)
+  green   : #EBDBB2;   // bright green (success)
+  yellow  : #FABD2F;   // bright yellow (warnings)
+  blue    : #B8BB26;   // bright blue (info / links)
+  magenta : #D3869B;   // bright purple (identifiers)
+  cyan    : #EBDBB2;   // bright aqua (variables)
+
+  // Semantic aliases
+  accent: @red;
+  urgent: @yellow;
+}
