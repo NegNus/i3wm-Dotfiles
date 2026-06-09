@@ -61,6 +61,8 @@ gaps outer -7
 ######
 #EXEC#
 ######
+exec xrandr --output HDMI-1 --mode "1920x1080_60.00"
+exec xrandr --output Virtual-1 --mode "1920x1080_60.00"
 exec --no-startup-id xinput set-prop 17 "libinput Accel Speed" -0.875
 exec --no-startup-id xinput set-prop 25 "libinput Accel Speed" -0.875
 exec --no-startup-id xinput set-prop 22 "libinput Accel Speed" -0.875
