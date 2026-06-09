@@ -13,9 +13,9 @@ I did this primarily for myself.
 
 ## Dependencies (arch btw)
 
-`sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance`
+`sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance nvim ttf-nerd-fonts-symbols-mono xorg-xrandr`
 
-`yay -S rofi-greenclip gruvbox-dark-gtk gruvbox-dark-icons-gtk papirus-folders-nordic`
+`yay -S rofi-greenclip gruvbox-dark-gtk gruvbox-dark-icons-gtk papirus-folders-nordic oh-my-zsh-git`
 
 ### For me
 
@@ -40,6 +40,10 @@ I did this primarily for myself.
 4) After installation: 
 
 `mod + shift + e` to restart everything
+
+5) Apply zsh:
+
+`chsh -s $(which zsh)` 
 
 If you want to delete symlinks(roll back 3rd step) :
 
