@@ -15,7 +15,7 @@ I did this primarily for myself.
 
 `sudo pacman -S stow rofi dunst  fastfetch  flameshot  kitty  picom  quickshell  rofi  thunar feh autotiling lxappearance nvim ttf-nerd-fonts-symbols-mono xorg-xrandr`
 
-`yay -S rofi-greenclip gruvbox-dark-gtk gruvbox-dark-icons-gtk papirus-folders-nordic oh-my-zsh-git`
+`yay -S rofi-greenclip gruvbox-dark-gtk gruvbox-dark-icons-gtk papirus-folders-nordic`
 
 ### For me
 
@@ -42,6 +42,8 @@ I did this primarily for myself.
 `mod + shift + e` to restart everything
 
 5) Apply zsh:
+   
+`oh-my-zsh-git`
 
 `chsh -s $(which zsh)` 
 
