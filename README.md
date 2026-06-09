@@ -41,9 +41,9 @@ I did this primarily for myself.
 
 `mod + shift + e` to restart everything
 
-5) Apply zsh:
+5) Apply zsh and oh-my-zsh:
    
-`oh-my-zsh-git`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 `chsh -s $(which zsh)` 
 
