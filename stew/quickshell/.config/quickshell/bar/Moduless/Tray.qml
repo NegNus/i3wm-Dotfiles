@@ -35,7 +35,7 @@ Rectangle { //  Right rectangle
             radius: 13
             MouseArea{
                 anchors.fill: parent
-                onClicked: Quickshell.execDetached(["prismlauncher", "-l", "Enigmatica 2 Expert Unofficial - E2Eu" ])
+                onClicked: Quickshell.execDetached(["prismlauncher", "-l", "TerraFirmaGreg-Modern(1)" ])
             }
             Text{
                 anchors{

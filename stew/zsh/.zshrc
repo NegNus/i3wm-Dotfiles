@@ -1,9 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+
+# fastfetch --logo-padding-right 0
 export QT_QPA_PLATFORMTHEME=gtk3
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+alias fireoff='sudo systemctl stop iptables firewalld firewalld.service'
 alias applyTheme='/home/$USER/.config/colorschemes/ApplyTheme.sh'
+alias vim='nvim'
 alias sudo='sudo '
 alias f='fastfetch'
 alias c='clear'
@@ -113,7 +118,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-fastfetch --logo-padding-right 0
 
 # быстрые команды для управления zapret
 alias zapret-config='$HOME/zapret-configs/install.sh'
