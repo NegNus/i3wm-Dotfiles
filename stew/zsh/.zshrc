@@ -9,6 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 alias fireoff='sudo systemctl stop iptables firewalld firewalld.service'
 alias applyTheme='/home/$USER/.config/colorschemes/ApplyTheme.sh'
 alias vim='nvim'
+alias svim='sudoedit'
 alias sudo='sudo '
 alias f='fastfetch'
 alias c='clear'
@@ -20,6 +21,11 @@ alias yass='yay -Ss'
 alias yar='yay -R'
 alias n='sudo nvim'
 alias sybau='pacman -Syu'
+
+export EDITOR='nvim'
+export VISUAL='nvim'
+export SUDO_EDITOR='nvim'
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -99,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+  # export EDITOR='vim'
 # else
 #   export EDITOR='nvim'
 # fi
